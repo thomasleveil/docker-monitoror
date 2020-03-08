@@ -1,0 +1,15 @@
+version: "3.6"
+
+services:
+  monitoror:
+    build: .
+
+  sut:
+    build: tests
+    depends_on:
+      - monitoror
+    environment:
+      MONITOROR_URL: http://monitoror:8080
+    volumes:
+      - ./tests:/tests:ro
+    command: pytest -p no:cacheprovider -v /tests

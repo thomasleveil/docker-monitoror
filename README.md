@@ -1,7 +1,7 @@
 Unofficial Docker image for Monitoror
 =====================================
 
-[![](./monitoror-logo.png)](https://monitoror.com)
+[![][LOGO]](https://monitoror.com)
 
 Monitoror is a unified monitoring wallboard.
 
@@ -31,3 +31,6 @@ docker build \
     --build-arg MONITOROR_VERSION=3.1.0 \
     https://raw.githubusercontent.com/thomasleveil/docker-monitoror/master/Dockerfile
 ```
+
+
+[LOGO]: https://github.com/thomasleveil/docker-monitoror/raw/master/monitoror-logo.png

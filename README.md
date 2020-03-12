@@ -1,3 +1,7 @@
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/tomdesinto/monitoror)
+![Docker Pulls](https://img.shields.io/docker/pulls/tomdesinto/monitoror)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/tomdesinto/monitoror?sort=semver)
+
 Unofficial Docker image for Monitoror
 =====================================
 
